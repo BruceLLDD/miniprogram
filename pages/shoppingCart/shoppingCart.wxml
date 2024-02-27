@@ -1,0 +1,8 @@
+<!-- pages/shoppingCart/shoppingCart.wxml -->
+<view class="container">
+  <view wx:for="{{cartList}}" wx:key="index" class="cart-item">
+    <text class="goods-name">{{item.name}}</text>
+    <text class="goods-price">价格: {{item.price}} 元</text>
+    <button bindtap="removeFromCart" data-id="{{item.id}}" class="remove-btn">删除</button>
+  </view>
+</view>

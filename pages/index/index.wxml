@@ -1,0 +1,25 @@
+<!-- pages/index/index.wxml -->
+<view class="container">
+  <view class="swiper">
+    <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{5000}}" duration="{{1000}}">
+      <block wx:for="{{bannerList}}" wx:key="index">
+        <swiper-item>
+          <image src="{{item.imageUrl}}" class="swiper-img" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="choose">
+    <block wx:for="{{goodsList}}" wx:key="index">
+      <view class="item" bindtap="goToDetail" data-id="{{item.id}}">
+        <image src="{{item.imageUrl}}" class="item-img" />
+        <text class="item-name">{{item.name}}</text>
+      </view>
+    </block>
+  </view>
+  <view class="footer">
+    <button class="cart-btn" bindtap="goToShoppingCart">购物车</button>
+    <button class="me-btn" bindtap="goToMe">个人中心</button>
+  </view>
+</view>
+

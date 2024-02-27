@@ -1,0 +1,14 @@
+<!--pages/goodsList/goodsList.wxml-->
+<!-- pages/goodsList/goodsList.wxml -->
+<view class="container">
+  <view class="goods-list">
+    <block wx:for="{{goodsList}}" wx:key="index">
+      <view class="goods-item" bindtap="goToDetail" data-id="{{item.id}}">
+        <image src="{{item.imageUrl}}" class="goods-img" />
+        <text class="goods-name">{{item.name}}</text>
+        <text class="goods-price">价格: {{item.price}} 元</text>
+      </view>
+    </block>
+  </view>
+</view>
+

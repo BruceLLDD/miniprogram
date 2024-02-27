@@ -1,0 +1,30 @@
+/* pages/me/me.wxss */
+/* pages/me/me.wxss */
+.container {
+  padding: 20rpx;
+  text-align: center;
+}
+
+.avatar {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+
+.nickname {
+  margin-top: 20rpx;
+  font-size: 20rpx;
+  font-weight: bold;
+}
+
+.order-history-btn {
+  margin-top: 40rpx;
+  width: 200rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5rpx;
+}

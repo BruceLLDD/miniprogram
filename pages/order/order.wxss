@@ -1,0 +1,17 @@
+/* pages/order/order.wxss */
+.container {
+  padding: 20rpx;
+}
+
+.order-item {
+  margin-bottom: 20rpx;
+}
+
+.order-id {
+  font-size: 16rpx;
+}
+
+.order-total {
+  margin-top: 10rpx;
+  font-size: 14rpx;
+}

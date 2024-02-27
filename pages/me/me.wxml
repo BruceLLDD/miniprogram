@@ -1,0 +1,6 @@
+<!--pages/me/me.wxml-->
+<view class="container">
+  <image src="{{userInfo.avatarUrl}}" class="avatar" />
+  <text class="nickname">{{userInfo.nickName}}</text>
+  <button bindtap="viewOrderHistory" class="order-history-btn">查看订单历史</button>
+</view>

@@ -1,0 +1,29 @@
+/* pages/shoppingCart/shoppingCart.wxss */
+.container {
+  padding: 20rpx;
+}
+
+.cart-item {
+  margin-bottom: 20rpx;
+}
+
+.goods-name {
+  font-size: 16rpx;
+}
+
+.goods-price {
+  margin-top: 10rpx;
+  font-size: 14rpx;
+}
+
+.remove-btn {
+  margin-top: 10rpx;
+  width: 60rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  text-align: center;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5rpx;
+}

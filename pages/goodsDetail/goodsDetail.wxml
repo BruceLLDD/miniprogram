@@ -1,0 +1,9 @@
+<!-- pages/goodsDetail/goodsDetail.wxml -->
+<view class="container">
+  <image src="{{goods.imageUrl}}" class="goods-img" />
+  <view class="goods-info">
+    <text class="goods-name">{{goods.name}}</text>
+    <text class="goods-price">价格: {{goods.price}} 元</text>
+    <button bindtap="addToCart" class="add-to-cart">加入购物车</button>
+  </view>
+</view>

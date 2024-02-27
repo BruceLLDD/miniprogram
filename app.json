@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/goodsList/goodsList",
+    "pages/goodsDetail/goodsDetail",
+    "pages/shoppingCart/shoppingCart",
+    "pages/order/order",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "拖鞋商城",
+    "navigationBarTextStyle": "black"
+  }
+}
