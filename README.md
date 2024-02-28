@@ -46,11 +46,8 @@ miniprogram
 
 
 
-## Updates
 
-Feel free to contribute or suggest updates!
-
-2. 项目设计流程：
+## 2. 项目设计流程：
 **步骤一：创建一个新的微信小程序项目**
 1. 打开微信开发者工具。
 2. 选择「新建项目」，填写项目名称、项目目录和 AppID（如果没有可以先填写测试用的 AppID）。
@@ -91,3 +88,8 @@ Feel free to contribute or suggest updates!
 **步骤六：发布上线**
 1. 完成开发和测试后，在微信开发者工具中上传代码并提交审核。
 2. 审核通过后，即可发布上线，让用户在微信中搜索并使用你的小程序。
+
+
+## Updates
+
+Feel free to contribute or suggest updates!
