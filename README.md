@@ -1,10 +1,10 @@
-# miniprogram
+# MiniProgram
 
-this wechat mini program is my fisrt test for creating an online shoes mart, which must very easy and simple even ridiculous but important for me... 
-lets update it !
+This WeChat Mini Program is my first attempt at creating an online shoe mart. It may seem very easy, simple, or even ridiculous, but it's important to me. Let's update it!
 
-1. structure：
-     miniprogram
+## Structure
+
+miniprogram
 ├── app.json
 ├── app.js
 ├── app.wxss
@@ -43,6 +43,12 @@ lets update it !
         ├── orderManagement.html
         ├── userManagement.html
         └── styles.css
+
+
+## Updates
+
+Feel free to contribute or suggest updates!
+
 2. 项目设计流程：
 **步骤一：创建一个新的微信小程序项目**
 1. 打开微信开发者工具。
