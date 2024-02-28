@@ -1,4 +1,4 @@
-// admin/public/goodsManagement.html.js
+// admin/public/userManagement.js
 Page({
 
   /**

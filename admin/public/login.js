@@ -1,4 +1,4 @@
-// admin/public/userManagement.html.js
+// admin/public/login.js
 Page({
 
   /**

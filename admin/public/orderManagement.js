@@ -1,4 +1,4 @@
-// admin/public/orderManagement.html.js
+// admin/public/orderManagement.js
 Page({
 
   /**
