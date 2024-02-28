@@ -5,44 +5,44 @@ This WeChat Mini Program is my first attempt at creating an online shoe mart. It
 ## Structure
 
 miniprogram
-├── app.json
-├── app.js
-├── app.wxss
-├── pages
-│   ├── index
-│   │   ├── index.js
-│   │   ├── index.wxml
-│   │   └── index.wxss
-│   ├── goodsList
-│   │   ├── goodsList.js
-│   │   ├── goodsList.wxml
-│   │   └── goodsList.wxss
-│   ├── goodsDetail
-│   │   ├── goodsDetail.js
-│   │   ├── goodsDetail.wxml
-│   │   └── goodsDetail.wxss
-│   ├── shoppingCart
-│   │   ├── shoppingCart.js
-│   │   ├── shoppingCart.wxml
-│   │   └── shoppingCart.wxss
-│   ├── order
-│   │   ├── order.js
-│   │   ├── order.wxml
-│   │   └── order.wxss
-│   └── me
-│       ├── me.js
-│       ├── me.wxml
-│       └── me.wxss
-└── admin
-    ├── server.js
-    ├── routes
-    │   └── admin.js
-    └── public
-        ├── login.html
-        ├── goodsManagement.html
-        ├── orderManagement.html
-        ├── userManagement.html
-        └── styles.css
+- app.json
+- app.js
+- app.wxss
+- pages
+  - index
+    - index.js
+    - index.wxml
+    - index.wxss
+  - goodsList
+    - goodsList.js
+    - goodsList.wxml
+    - goodsList.wxss
+  - goodsDetail
+    - goodsDetail.js
+    - goodsDetail.wxml
+    - goodsDetail.wxss
+  - shoppingCart
+    - shoppingCart.js
+    - shoppingCart.wxml
+    - shoppingCart.wxss
+  - order
+    - order.js
+    - order.wxml
+    - order.wxss
+  - me
+    - me.js
+    - me.wxml
+    - me.wxss
+- admin
+  - server.js
+  - routes
+    - admin.js
+  - public
+    - login.html
+    - goodsManagement.html
+    - orderManagement.html
+    - userManagement.html
+    - styles.css
 
 
 
