@@ -5,7 +5,11 @@
     "pages/goodsDetail/goodsDetail",
     "pages/shoppingCart/shoppingCart",
     "pages/order/order",
-    "pages/me/me"
+    "pages/me/me",
+    "admin/public/goodsManagement.html",
+    "admin/public/login.html",
+    "admin/public/orderManagement.html",
+    "admin/public/userManagement.html"
   ],
   "window": {
     "backgroundTextStyle": "light",
